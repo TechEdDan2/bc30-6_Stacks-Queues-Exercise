@@ -60,7 +60,7 @@ class Stack {
     if (this.size === 0) {
       throw new Error("This is an empty stack, cannot peek at the first element");
     }
-    return this.last.val;
+    return this.first.val;
 
   }
 
